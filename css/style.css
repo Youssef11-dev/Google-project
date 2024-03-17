@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Open Sans" , sans-serif;
+}
+
+/**********************/
+/*Section-hero/
+/*********************/
+.section-hero{
+    padding-bottom: 9.8rem;
+}
+.logo img{
+    width: 16rem
+}
+
+.main-nav-list{
+    list-style: none;
+}
+
+.post-img{
+    background-image: url("../images/bg-hero-desktop.svg");
+    opacity: 10 ;
+}
+
+.hero-photo img{
+width: 100%;
+}
+.heading{
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 4.8rem;
+    font-family: "Poppins" , sans-serif;
+}
+.hero-text{
+    margin-bottom: 4.8rem;
+    font-size: 1.8rem;
+}
+.header{
+   padding-top: 3.2rem;
+    margin-bottom: 6.4rem;
+}
+
+
+.getstarted--btn:link , .getstarted--btn:visited , .getstarted--btn:active , .getstarted--btn:hover {
+
+    margin: 0 3.2rem;
+    padding: 1.6rem 8rem;
+    border-radius: 40px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.4);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.getstarted--btn:link , .getstarted--btn:visited{
+    background-color: hsl(322,100%,66%);
+    color: white;
+}
+.getstarted--btn:active , .getstarted--btn:hover{
+    background-color: hsl(326, 100%, 79%);
+    color: white;
+}
+.tryit--btn:link ,
+.tryit--btn:visited{
+    color: rgba(2, 2, 2, 0.75);
+    font-weight: 600;
+    background-color: white;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.4);
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1.2rem 3.2rem;
+    border-radius: 41px;
+}
+.tryit--btn:active , .tryit--btn:hover{
+    color: #7c7c7c;
+    font-weight: 600;
+    background-color: white;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.4);
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+
+
+
+/*****************/
+/*cards section*/
+/******************/
+.section-cards{
+    padding: 9.6rem 0;
+}
+.card-photo img{
+    width: 80%;
+}
+.heading-third{
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 3.2rem;
+    font-family: "Poppins" , sans-serif;
+}
+.card-item{
+    padding: 6.4rem;
+    gap: 3.2rem;
+    box-shadow: 0 0 32px 0 rgba(0,0,0,0.1);
+}
+.card-text{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: hsl(208, 11%, 55%)
+}

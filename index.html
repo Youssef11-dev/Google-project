@@ -3,33 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Huddle Exam</title>
   </head>
   <body>
-  <header class="header">
+  <div class="post-img" >
+
+  <header class="header container">
     <nav class="main-nav">
-  <ul class="main-nav-list">
-    <li>
-      <h1 class="logo">Huddle</h1>
-    </li>
-    <li>
-      <a href="#" class="tryit--btn">Try it for Free</a>
-    </li>
-  </ul>
+      <ul class="nav nav-pills row align-items-center">
+        <li class="nav-item col-6">
+          <div class="logo">
+            <img src="images/logo.svg" alt="huddle logo">
+          </div>
+        </li>
+        <li class="nav-item col-6 text-right">
+          <a class=" tryit--btn" aria-current="page" href="#">Try it for Free</a>
+        </li>
+      </ul>
     </nav>
   </header>
-  <section class="section-hero">
-    <div>
-    <h2>Build The Community
-      Your Fans Will Love</h2>
-    <p>Huddle re-imagines the way we build communities. You have
+    <section class="section-hero container">
+    <div class="row align-items-end">
+    <div class="col-6">
+    <h2 class="heading">Build The Community Your Fans Will Love</h2>
+    <p class="hero-text">Huddle re-imagines the way we build communities. You have
       a voice, out so does your audrence. Create connections with your users as you engage in genuine discussion.</p>
-    <a href="#" class="getstarted--btn"></a>
+      <a class="getstarted--btn btn" href="#" role="button">Get started for free</a>
+
     </div>
-    <div>
+    <div class="hero-photo col-6" >
       <img alt="application mockup" src="images/illustration-mockups.svg">
     </div>
+    </div>
   </section>
+  </div>
+  <section class="section-cards container ">
+    <div class="card-item row align-items-center">
+      <div class="card-text-box col">
+        <h3 class="heading-third">Grow Together</h3>
+        <p class="card-text">Generate meaningful discussions with your audience and build strong , loyal community think
+          of the insightful conversations you miss out on with a feedback form.</p>
+      </div>
+      <div class="card-photo col text-right"> <img alt="grow-together" src="images/illustration-grow-together.svg"> </div>
+    </div>
+    <div class="card-item row align-items-center">
+      <div class="card-photo col text-left"> <img alt="flowing-conversation" src="images/illustration-flowing-conversation.svg"> </div>
+      <div class="card-text-box col">
+        <h3 class="heading-third">Flowing Conversations</h3>
+        <p class="card-text">You wouldn't paginate a conversation in real life, so why do it
+          online? Our threads have just-in-time loading for a more natural flow</p>
+      </div>
+
+    </div>
+    <div class="card-item row align-items-center">
+      <div class="card-text-box col">
+        <h3 class="heading-third">Your Users</h3>
+        <p class="card-text">It takes no time at all to integrate huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+      </div>
+      <div class="card-photo col text-right"> <img alt="your-users" src="images/illustration-your-users.svg"> </div>
+    </div>
+  </section>
+  <footer>
+
+  </footer>
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
   </body>
 </html>
