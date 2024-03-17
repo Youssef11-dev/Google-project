@@ -8,6 +8,7 @@ html{
 }
 body{
     font-family: "Open Sans" , sans-serif;
+
 }
 
 /**********************/
@@ -16,6 +17,7 @@ body{
 .section-hero{
     padding-bottom: 9.8rem;
 }
+
 .logo img{
     width: 16rem
 }
@@ -109,9 +111,128 @@ width: 100%;
     padding: 6.4rem;
     gap: 3.2rem;
     box-shadow: 0 0 32px 0 rgba(0,0,0,0.1);
+    margin-bottom: 4.8rem;
 }
 .card-text{
     font-size: 1.6rem;
     line-height: 1.8;
     color: hsl(208, 11%, 55%)
+}
+
+.overflow--btn{
+    box-shadow: 0 0 3px 0 rgba(0,0,0,01);
+    background-color: white;
+    border-radius: 12px;
+    width: 55%;
+    height: 20rem;
+    padding-top: 2rem;
+    position: absolute;
+    top: 0;
+    left: 30rem;
+}
+.overflow--btn-heading{
+    font-size: 3.6rem;
+    margin-bottom: 3.6rem;
+    text-align: center;
+}
+.overflow-container{
+    position: relative;
+}
+.empty-container{
+    padding: 6.4rem;
+}
+/*********************/
+
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    padding: 9.6rem 0;
+}
+.footer-items{
+    padding-top: 3.6rem;
+}
+.footer-logo g path{
+fill: white;
+}
+.footer-logo{
+    margin-bottom: 2.4rem;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    align-items: start;
+}
+.address-text{
+    display: flex;
+    gap: 1.2rem;
+    color: #cbcbcb;
+}
+.address-text img {
+align-self: start;
+}
+
+.footer-second-col{
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    justify-content: start;
+    align-items: start;
+
+
+}
+.about-us:link , .about-us:visited{
+    color: #cecece;
+    font-size: 1.2rem;
+
+}
+.footer-fourth-col{
+    display: flex;
+    gap: 2.4rem;
+}
+.footer-icon{
+    color: white;
+    width: 2.8rem;
+    height: 2.8rem;
+}
+.footer-icon:hover{
+    color:hsl(322, 100%, 66%);
+    transition: all 0.3s;
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 40%;
+    }
+    .section-hero-text{
+        margin-bottom: 3.6rem;
+    }
+    .card-text-box{
+
+        text-align: center;
+    }
+    .card-photo{
+        margin-bottom: 3.6rem;
+       display: flex;
+        justify-content: center;
+    }
+    .overflow--btn{
+        width: 70%;
+        height: 20rem;
+        padding-top: 2rem;
+        position: absolute;
+        top: 0;
+        left: 12rem;
+    }
+    .address-text span{
+        font-size: 1.8rem;
+    }
+    .footer-second-col a:link , .footer-second-col a:visited {
+        font-size: 1.8rem;
+
+    }
+    .footer-second-col{
+        margin-bottom: 3.6rem;
+    }
+
 }
